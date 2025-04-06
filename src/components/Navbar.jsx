@@ -1,5 +1,6 @@
 import React from 'react'
 import { useAuth } from '../context/AuthContext';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const { logout } = useAuth();
@@ -27,11 +28,20 @@ const Navbar = () => {
                 </div>
                 <a class="btn btn-ghost text-xl">daisyUI</a>
             </div>
+            
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
                 <li><a>Edit Employees</a></li>
                 </ul>
             </div>
+
+              <Link to="/apps-page" className='block'>
+                    <div>
+                       <p>Apps Page</p> 
+                    </div>
+              </Link>
+            
+            
             <div class="navbar-end">
                 <a class="btn" onClick={logout}>Sign Out</a>
             </div>

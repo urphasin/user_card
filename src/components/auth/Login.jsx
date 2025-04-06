@@ -12,7 +12,7 @@ export const Login = () => {
     // You can replace this logic with a real API call
     if (username == "admin" && password === "password") {
       login();
-      navigate("/dashboard");
+      navigate("/apps-page");
     } else {
       alert("Invalid credentials!");
     }
