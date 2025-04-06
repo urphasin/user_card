@@ -21,7 +21,7 @@ export const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-        <h1 className="text-3xl font-bold text-red-300 text-center mb-6">LOGIN</h1>
+        <h1 className="text-3xl font-bold text-green-500 text-center mb-6">LOGIN</h1>
         <div className="space-y-4">
           <input
             type="text"
@@ -39,7 +39,7 @@ export const Login = () => {
           />
           <button
             onClick={handleLogin}
-            className="w-full py-2 bg-blue-600 text-black font-semibold rounded-md hover:bg-red-400 transition-colors duration-200"
+            className="w-full py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-red-400 transition-colors duration-200"
           >
             Login
           </button>
