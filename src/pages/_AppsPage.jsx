@@ -29,6 +29,13 @@ const _AppsPage = () => {
             <p>Book Flights</p>
           </div>
         </Link>
+
+        <Link to='/sentiment-analyzer' className='block'>
+          <div className='cursor-pointer hover:bg-gray-100 p-2 rounded'>
+            <p>Sentiment Analyzer</p>
+          </div>
+        </Link>
+        
       </div>
     </div>
   );

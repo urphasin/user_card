@@ -6,6 +6,7 @@ import BookFlights from "./pages/BookFlights";
 import KazogaSearchV2 from "./pages/KazogaSearchV2";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import { Login } from "./components/auth/Login";
+import SentimentAnalyzer from "./pages/SentimentAnalyzer";
 import {
   BrowserRouter as Router,
   Route,
@@ -23,6 +24,7 @@ function App() {
     <AuthProvider>
       <Routes>
         <Route path='/dashboard' element={<_MainDashboard />} />
+        <Route path='sentiment-analyzer' element={<SentimentAnalyzer />} />
         <Route path='/book' element={<BookFlights />} />
         <Route path='/kazoga-v2' element={<KazogaSearchV2 />} />
         <Route path='/about' element={<About />} />

@@ -21,7 +21,8 @@ export const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-        <h1 className="text-3xl font-bold text-green-500 text-center mb-6">LOGIN</h1>
+        <span>username: admin</span><br /><span>password: password</span>
+        <h1 className="text-3xl font-bold text-green-500 text-center mb-6">LOGIN TO SEE ALL THE APPS</h1>
         <div className="space-y-4">
           <input
             type="text"
